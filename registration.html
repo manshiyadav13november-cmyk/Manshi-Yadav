@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form - Modern</title>
+    <!-- Humne font family change ki hai -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Yeh line hamari CSS file ko link karti hai -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-wrapper">
+        <div class="form-header">
+<h2>Registration form</h2>
+
+<form action="submit.php" method="post">
+
+<h3>Personal details</h3>
+<label>Full name</label>
+<div class="input-group">
+    <input type="text" name="Full name" required><br>
+</div>
+    <div class="input-group">
+    <label>Phone number</label>
+    <input type="text" number="Phone number" required><br>
+</div>
+   <div class="input-group">
+<label>Father's name</label>
+<input type="text" name="Father's name" required><br>
+</div>
+<div class="input-group">
+<label>Mother's name</label>
+<input type="text" name="Mother's name" required><br>
+</div>
+<div class="input-group">
+<label>Email I'd</label>
+<input type="text" name="Email I'd" required><br>
+</div>
+
+<h4>Qualification</h4>
+<div class="input-group">
+<label>10th board percentage</label>
+<input type="text" number="10th board percentage" required><br>
+</div>
+<div class="input-group">
+<label>12th board percentage</label>
+<input type="text" number="12th board percentage" required><br>
+</div>
+
+<label>Gender:</label>
+<div class="gender-options">
+<input type="radio" name="Gender" value="Male">Male
+<input type="radio" name="Gender" value="Female">Female
+<input type="radio" name="Gender" value="Other">Other
+</div>
+<br><br>
+
+<label>Branch:</label>
+<select id="branch" name="branch" required>
+    <option>CSE</option>
+    <option>AIML</option>
+    <option>Civil Engineering</option>
+    <option>Mechanical Engineering</option>
+    <option>None of these</option>
+</select>
+
+<br><br>
+
+<button>submit</button>
+
+</form>
+
+</body>
+</html>

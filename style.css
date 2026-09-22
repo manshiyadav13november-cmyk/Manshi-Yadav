@@ -1,0 +1,97 @@
+/* --- Global Styles --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #eef2f5; /* Light soft gray-blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* --- Form Container --- */
+.form-container, .form-wrapper {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1, h2 {
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* --- Input Fields --- */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.input-group input, 
+.input-group select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.input-group input:focus, 
+.input-group select:focus {
+    border-color: #007bff; /* Light Blue Focus Border */
+}
+
+/* --- Button --- */
+.btn, button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* Light Blue Button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover, button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* --- Links --- */
+p, .switch-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
